@@ -1,10 +1,10 @@
 import streamlit as st
 import time
 
-st.set_page_config(page_title="English to French Translator")
-st.title("English to French Translator")
+st.set_page_config(page_title="French to English Translator")
+st.title("French to English Translator")
 
-text = st.text_area("Source text", height=200, placeholder="Please enter your English text here...")
+text = st.text_area("Source text", height=200, placeholder="Please enter your French text here...")
 translate_btn = st.button("Translate")
 
 if translate_btn:
